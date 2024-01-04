@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: lightpink;
+}
+
+.div-title {
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-title h1 {
+    font-weight: 300;
+}
+
+.container {
+    width: 100%; 
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+.container .div-form {
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgrey;
+}
+
+.container .div-form h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.container .div-form form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .div-form form input, 
+.container .div-form form button {
+width: 60%;
+padding: 10px 10px;
+margin: 10px 10px;
+border-radius: 7px;
+}
+
+.container .div-timeline {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgrey;
+}
+
+.container .div-timeline h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.container .div-timeline .div-notes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;    
+}
+
+.container .div-timeline .div-notes p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: black;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-edit {
+    background-color: lightgreen;
+}
+
+.btn-delete {
+    background-color: lightsalmon;
+}
+
+
